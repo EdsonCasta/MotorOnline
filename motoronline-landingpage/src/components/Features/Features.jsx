@@ -19,7 +19,7 @@ function Features() {
   ];
 
   return (
-    <section id="features" className="features-section">
+    <section id="caracteristicas" className="features-section">
       <div className="features-container">
         <h2 className="features-title">¿Por Qué Elegirnos?</h2>
         <div className="features-grid">
