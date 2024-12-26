@@ -1,0 +1,85 @@
+/* Componente de Información de Contacto */
+.contact-section {
+    background-color: #f8f9fa; /* Fondo oscuro */
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px; /* Separa el componente del siguiente contenido */
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    color: #fca311; /* Color distintivo */
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Mayor separación entre los ítems */
+  }
+  
+  .contact-item {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 12px; /* Bordes más redondeados */
+    background-color: #222;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+  }
+  
+  .contact-item h3 {
+    font-size: 1.4rem;
+    color: #fca311;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .contact-item p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #ccc;
+  }
+  
+  .contact-item a {
+    color: #fca311;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold; /* Texto más llamativo */
+  }
+  
+  .contact-item a:hover {
+    color: white; /* Cambia a blanco al pasar el ratón */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 15px; /* Espaciado mayor entre los iconos */
+    font-size: 1.2rem;
+    color: #fca311;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-details {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
