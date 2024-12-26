@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Carousel from './components/Carousel/Carousel'
+import AddSection from './components/Section/Section'
 import ContactInfo from './components/ContactInfo/ContactInfo'
 import Footer from './components/Footer/Footer'
 import Feactures from './components/Features/Features'
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Header/>
       <Carousel/>
+      <AddSection/>
       <Feactures/>
       <ContactInfo/>
       <Footer/>

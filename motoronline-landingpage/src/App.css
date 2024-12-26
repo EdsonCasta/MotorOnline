@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #root {
   background-color: #f8f9fa;
   /* max-width: 1280px;

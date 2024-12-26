@@ -78,7 +78,7 @@ function Carousel() {
     };
 
     return (
-        <section className="carousel" role="region" aria-label="Galería de imágenes de autos"
+        <section id="inicio" className="carousel" role="region" aria-label="Galería de imágenes de autos"
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}
