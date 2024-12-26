@@ -1,0 +1,71 @@
+/* Estilos generales de la sección */
+.features-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Títulos */
+  .features-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    color: #fca311;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Descripciones */
+  .feature-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Grid de características */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Tarjetas */
+  .feature-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .features-title {
+      font-size: 1.75rem;
+    }
+  
+    .feature-title {
+      font-size: 1.1rem;
+    }
+  
+    .feature-description {
+      font-size: 0.9rem;
+    }
+  }
+  

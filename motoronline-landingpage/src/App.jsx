@@ -2,7 +2,7 @@ import Header from './components/Header/Header'
 import Carousel from './components/Carousel/Carousel'
 import ContactInfo from './components/ContactInf'
 import Footer from './components/Footer/Footer'
-import Feactures from './components/Feactures'
+import Feactures from './components/Features/Features'
 
 import './App.css'
 
